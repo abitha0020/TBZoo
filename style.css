@@ -19,7 +19,12 @@ body{
     gap: 0px;
     opacity: 0px;
 }
+.row{
+    display: flex;
+}
 .col-3{
     background-color: #FFFFFF;
     border-radius: 28px;
+    height: 256px;
+    flex:1;
 }
