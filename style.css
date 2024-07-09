@@ -1,0 +1,25 @@
+body{
+    font-family: "Montserrat", sans-serif;
+   }
+.nav-link{
+   color: black !important;
+   }
+.nav-link:hover {
+    color: #225e34; /* Change this color to whatever you like */
+}   
+.heading{
+    margin-top: -380px;
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 69.48px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 147px;
+    gap: 0px;
+    opacity: 0px;
+}
+.col-3{
+    background-color: #FFFFFF;
+    border-radius: 28px;
+}
