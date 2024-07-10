@@ -1,12 +1,21 @@
 body{
     font-family: "Montserrat", sans-serif;
-   }  
-.nav-link{
+   } 
+.navbar{
+    padding-bottom: 0px;
+}
+.nav-item{
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 16px;
+} 
+.nav-link{ 
    color: black !important;
    }
 .nav-link:hover {
     color: green !important;
     background: #00AF4026;
+    border-bottom: darkgreen;
 }  
 .heading{
     margin-top: -380px;
