@@ -5,10 +5,9 @@ body{
    color: black !important;
    }
 .nav-link:hover {
-    color: green;
+    color: green !important;
     background: #00AF4026;
-
-}   
+}  
 .heading{
     margin-top: -380px;
     margin-left: 147px;
@@ -20,6 +19,9 @@ body{
     letter-spacing: 0.04em;
     text-align: left;
     color: #FFFFFF;
+}
+.bannerimage{
+    width: 100%;
 }
 #events{
     margin-top: 60px;
