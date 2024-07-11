@@ -1,5 +1,7 @@
 @import 'reset.scss';
 $green:#00AF40;
+$white:#ffffff;
+@mixin ta{text-align: center;}
 body{
   font-family: "Montserrat", sans-serif;
  } 
@@ -29,7 +31,7 @@ body{
   line-height: 69.48px;
   letter-spacing: 0.04em;
   text-align: left;
-  color: #FFFFFF;
+  color: $white;
 }
 .bannerimage{
   width: 100%;
@@ -39,7 +41,7 @@ body{
 }
 .contentbox{
   padding: 15px;
-  background-color: #FFFFFF;
+  background-color: $white;
   border-radius: 28px;
   height: 256px;
   flex:1;
@@ -56,7 +58,7 @@ body{
 #viewallbtn{
   width: 100px;
   border-radius: 30px;
-  color: #FFFFFF;
+  color: $white;
   background-color: #00AE42;
   border: none;
 }
@@ -93,14 +95,14 @@ body{
   background-color:#0054A8;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #FFFFFF;
+  color: $white;
 }
 .galleryheadingrow{
   column-gap: 20px;
 }
 .galleryheadings{
   text-decoration: none;
-  color: #FFFFFF;
+  color: $white;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.01em;
@@ -108,25 +110,25 @@ body{
 }
 .galleryheadings:hover{
   font-weight: 500;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid $white;
 }
 .galleryheadings:active{
   font-weight: 500;
 }
 .gallerycardheading{
-  color: #FFFFFF;
+  color: $white;
 }
 .gallerytext{
   font-weight: 200;
   font-size: 12px;
   line-height: 16.8px;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: $white;
 }
 #animals{
   .container{
     .animalsheading{
-      text-align: center;
+      @include ta();
       font-weight: 700;
       font-size: 31px;
       line-height: 38px;
@@ -146,7 +148,7 @@ body{
         height: 70px;
         width:200px;
         background-color: #00AE42;
-        color: #ffffff;
+        color: $white;
         border: none;
         font-weight: 600;
         font-size: 26px;
@@ -175,7 +177,7 @@ body{
             letter-spacing: 0.02em;
           }
           .content{
-            text-align: center;
+            @include ta
           }
         }
       }
