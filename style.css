@@ -101,10 +101,11 @@ body{
     color: #FFFFFF;
     font-size: 20px;
     line-height: 28px;
-    letter-spacing: 0.01%;
+    letter-spacing: 0.01em;
 }
 .galleryheadings:hover{
     font-weight: 500;
+    border-bottom: #FFFFFF;
 }
 .galleryheadings:active{
     font-weight: 500;
