@@ -1,124 +1,251 @@
-body{
-    font-family: "Montserrat", sans-serif;
-   } 
-.nav-item{
-    font-family: montserrat;
-    font-weight: 700;
-    font-size: 16px;
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-.nav-item{
-    
-} 
-.nav-link{ 
-   color: black !important;
-   height: 50px;
-   }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Montserrat",  sans-serif;
+}
+
+.nav-item {
+  font-family: montserrat;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.nav-link {
+  color: black !important;
+  height: 50px;
+}
+
 .nav-link:hover {
-    color: #00AF40 !important;
-    background: #00AF4026;
-    border-width: 20px;
-    border-bottom:4px solid #00AF40;
-    ;
-}  
-.heading{
-    margin-top: -380px;
-    margin-left: 147px;
+  color: #00AF40 !important;
+  background: #00AF40;
+  border-width: 20px;
+  border-bottom: 4px solid #00AF40;
 }
-.headingtext{
-    font-size: 57px;
-    font-weight: 700;
-    line-height: 69.48px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: #FFFFFF;
+
+.heading {
+  margin-top: -380px;
+  margin-left: 147px;
 }
-.bannerimage{
-    width: 100%;
+
+.headingtext {
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 69.48px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #FFFFFF;
 }
-#events{
-    margin-top: 60px;
+
+.bannerimage {
+  width: 100%;
 }
-.contentbox{
-    padding: 15px;
-    background-color: #FFFFFF;
-    border-radius: 28px;
-    height: 256px;
-    flex:1;
-    box-shadow: 0 4px 4px rgba(0,0,0,0.09);
+
+#events {
+  margin-top: 60px;
 }
-.contentlinks{
-    color: rgba(0,0,0) !important;
-    font-weight: 500;
-    text-decoration: none;
+
+.contentbox {
+  padding: 15px;
+  background-color: #FFFFFF;
+  border-radius: 28px;
+  height: 256px;
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.09);
 }
-.events{
-    margin-top: 50px;
+
+.contentlinks {
+  color: rgb(0, 0, 0) !important;
+  font-weight: 500;
+  text-decoration: none;
 }
-#viewallbtn{
-    width: 100px;
-    border-radius: 30px;
-    color: #FFFFFF;
-    background-color: #00AE42;
-    border: none;
+
+.events {
+  margin-top: 50px;
 }
-.eventsrow{
-    margin-top: 100px;
+
+#viewallbtn {
+  width: 100px;
+  border-radius: 30px;
+  color: #FFFFFF;
+  background-color: #00AE42;
+  border: none;
 }
-.eventsdetails{
-    margin-top: 100px;
-    height: 570px;
+
+.eventsrow {
+  margin-top: 100px;
 }
-.timedetails{
-    column-gap: 5%;
+
+.eventsdetails {
+  margin-top: 100px;
+  height: 570px;
 }
-.date{
-    font-weight: 600;
-    color: #00AE42;
+
+.timedetails {
+  -moz-column-gap: 5%;
+       column-gap: 5%;
 }
-.time{
-    font-weight: 600;
+
+.date {
+  font-weight: 600;
+  color: #00AE42;
 }
-.morelink{
-    text-decoration: none;
-    color: #292929;
-    font-weight: 500;
+
+.time {
+  font-weight: 600;
 }
-.eventheading{
-    letter-spacing: 0.04em;
-    width:80%;
+
+.morelink {
+  text-decoration: none;
+  color: #292929;
+  font-weight: 500;
 }
-#gallery{
-    margin-top: 100px;
-    height: 550px;
-    background-image: url('images/gallerybackground.png');
-    background-color:#0054A8;
-    color: #FFFFFF;
+
+.eventheading {
+  letter-spacing: 0.04em;
+  width: 80%;
 }
-.galleryheadingrow{
-    column-gap: 20px;
+
+#gallery {
+  margin-top: 100px;
+  height: 550px;
+  background-image: url("images/gallerybackground.png");
+  background-color: #0054A8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
 }
-.galleryheadings{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0.01em;
-    padding: 10px;
+
+.galleryheadingrow {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
-.galleryheadings:hover{
-    font-weight: 500;
-    border-bottom: 2px solid #ffffff;
+
+.galleryheadings {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  padding: 10px;
 }
-.galleryheadings:active{
-    font-weight: 500;
+
+.galleryheadings:hover {
+  font-weight: 500;
+  border-bottom: 2px solid #ffffff;
 }
-.gallerycardheading{
-    color: #FFFFFF;
+
+.galleryheadings:active {
+  font-weight: 500;
 }
-.gallerytext{
-    font-weight: 200;
-    font-size: 12px;
-    line-height: 16.8px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
+
+.gallerycardheading {
+  color: #FFFFFF;
 }
+
+.gallerytext {
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 16.8px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+#animals .container .animalsheading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+}
+#animals .container .animalsbuttondiv {
+  height: 150px;
+  position: relative;
+}
+#animals .container .animalsbuttondiv #animalsbutton {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  height: 70px;
+  width: 200px;
+  background-color: #00AE42;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+}
+#animals .container .row .col-3 .animalcontentbox {
+  padding: 10%;
+}
+#animals .container .row .col-3 .animalcontentbox .animalsimage {
+  border-radius: 100%;
+  width: 100%;
+}
+#animals .container .row .col-3 .animalcontentbox .h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: 0.04em;
+}
+#animals .container .row .col-3 .animalcontentbox .animalstime {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.07px;
+  letter-spacing: 0.02em;
+}
+#animals .container .row .col-3 .animalcontentbox .content {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
