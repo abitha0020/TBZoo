@@ -66,9 +66,9 @@ body {
 
 .nav-link:hover {
   color: #00AF40 !important;
-  background: #00AF40;
+  background: rgba(0, 175, 64, 0.1490196078);
   border-width: 20px;
-  border-bottom: 4px solid #00AF40;
+  border-bottom: 3px solid #00AF40;
 }
 
 .heading {
@@ -248,4 +248,58 @@ body {
 }
 #animals .container .row .col-3 .animalcontentbox .content {
   text-align: center;
+}
+#animals .quote {
+  margin-top: 50px;
+  background-color: #00AF40;
+  border-radius: 30px;
+  height: 350px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+#animals .quote .quote-image {
+  margin-top: -32px;
+  margin-left: -10px;
+}
+#animals .quote .quote-content {
+  color: #ffffff;
+  margin: 10px;
+  margin-left: -30px;
+}
+#animals .quote .quote-content p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  letter-spacing: 0.04em;
+}
+#animals .quote .quote-content div div .Name {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.26px;
+  letter-spacing: 0.04em;
+}
+#animals .quote .quote-content div div .designation {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.about {
+  background-image: url("images/about-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .container .white-circle {
+  width: 724px;
+  height: 724px;
+  left: 93px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+  border-radius: 100%;
 }/*# sourceMappingURL=style.css.map */
